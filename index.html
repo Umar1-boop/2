@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- 
+<div class="Main"> 
+
+    <div class="Main__Art">
+        <img src="./Login Art.svg" alt="" class="Main__Art__login">
+
+        <img src="./Frame 1.svg" alt="" class="Main__Art__freme">
+    </div>
+
+    <div class="Main__left">
+
+        <div class="Main__left__intro">
+            <h1 class="Main__left__intro__welcome">Welcome Back 👋</h1>
+            <p class="Main__left__intro__p">Today is a new day. It's your day. You shape it. Sign in to start managing your projects.</p>
+        </div>
+
+        <div class="Main__left__from">
+
+            <label class="Main__left__from__Email">
+                Email
+                <input type="email" placeholder="Example@email.com" class="Main__left__from__Email__input">
+            </label>
+
+            <label class="Main__left__from__Password">
+                Password
+                <input type="Password" placeholder="At least 8 characters" class="Main__left__from__Password__input">
+            </label>
+
+            <a href="" class="Main__left__from__forgot">Forgot Password?</a>
+
+            <button class="Main__left__from__sing">
+                Sign in
+            </button>
+
+        </div>
+
+        <div class="Main__left__social">
+            <div class="Main__left__social__or">
+                <div class="Main__left__social__or__left"></div>
+                <p class="Main__left__social__or__orr">Or</p>
+                <div class="Main__left__social__or__right"></div>
+            </div>
+
+            <div class="Main__left__social__desktop">
+                <button class="Main__left__social__desktop__button">
+                    <img src="./Google.svg" alt="" class="Main__left__social__desktop__button__img">
+                    sing in with google
+                </button>
+                <button class="Main__left__social__desktop__button">
+                    <img src="./Facebook.svg" alt="" class="Main__left__social__desktop__button__img">
+                    sing in with facebook
+                </button>
+            </div>
+
+            <div class="Main__left__social__mobile">
+                <button class="Main__left__social__mobile__button">google</button>
+                <button class="Main__left__social__mobile__button">facebook</button>
+            </div>
+
+        </div>
+
+        <div class="Main__left__account">
+            <p class="Main__left__account__p">
+                Don't you have an account?
+                <a href="" class="Main__left__account__p__a">Sign up</a>
+            </p>
+        </div>
+
+
+
+    </div>
+
+        <div class="Main__2023">
+            <p class="Main__2023__all">© 2023 ALL RIGHTS RESERVED</p>
+        </div>
+
+    </div>  -->
+
+    <main class="main">
+        <section class="main__left">
+            <form class="main__left__form">
+                <h1 class="main__left__form__h1">Welcome Back 👋</h1>
+                <p class="main__left__form__p">Today is a new day. It's your day. You shape it.
+                    Sign in to start managing your projects.</p>
+                    <label class="main__left__form__email">
+                        Email
+                        <input type="email" class="main__left__form__email__input" placeholder="Example@email.com">
+                    </label>
+                    <label class="main__left__form__password"> Password
+                        <input type="password" class="main__left__form__password__input" placeholder="At least 8 characters">
+                    </label>
+                    <a href="#" class="main__left__form__forgot">Forgot Password?</a>
+                    <button class="main__left__form__sing">Sign in</button>
+                    <div class="main__left__form__line">
+                        <span class="main__left__form__line__span"></span>
+                        <p class="main__left__form__line__or">or</p>
+                        <span class="main__left__form__line__span"></span>
+                    </div>
+                    <button class="main__left__form__google">
+                        <img src="./Google.svg" alt="" class="main__left__form__google__img">
+                        <p class="main__left__form__google__p">Sign in with Google</p>
+                    </button>
+                    <button class="main__left__form__facebook">
+                        <img src="./Facebook.svg" alt="" class="main__left__form__facebook__img">
+                        <p class="main__left__form__facebook__p">Sign in with Facebook</p>
+                    </button>
+                    <p class="main__left__form__account">Don't you have an account? <a href="#" class="main__left__form__account__a">Sign up</a></p>
+            </form> 
+        </section>
+        <section>
+            <img class="des" src="./Login Art.svg" alt="">
+            <img class="mobile" src="./Frame 1.svg" alt="">
+        </section>
+    </main>
+
+    
+    <!-- <main class="auth">
+    <div class="auth__container">
+
+        <div class="auth__Art">
+            <img src="./Login Art.svg" alt="" class="auth__Art__login">
+        </div>
+
+      <div class="auth__header">
+        <h1 class="auth__title">
+          Welcome Back <span>👋</span>
+        </h1>
+
+        <p class="auth__description">
+          Today is a new day. It's your day. You shape it.<br>
+          Sign in to start managing your projects.
+        </p>
+    </div>
+
+      <form class="auth-form">
+
+        <div class="form-group">
+          <label for="email">Email</label>
+
+          <input
+            id="email"
+            type="email"
+            name="email"
+            placeholder="Example@email.com"
+            autocomplete="email"
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password</label>
+
+          <input
+            id="password"
+            type="password"
+            name="password"
+            placeholder="At least 8 characters"
+            autocomplete="current-password"
+          >
+        </div>
+
+        <a href="#" class="forgot-password">
+          Forgot Password?
+        </a>
+
+        <button type="submit" class="btn btn--primary">
+          Sign in
+        </button>
+
+      </form>
+
+      <div class="divider">
+        <span></span>
+        <p>Or</p>
+        <span></span>
+      </div>
+
+      <div class="social-buttons">
+
+        <button type="button" class="btn btn--social">
+          <span class="social-icon social-icon--google">
+            <img src="./Google.svg" alt="">
+          </span>
+          <span>Sign in with Google</span>
+        </button>
+
+        <button type="button" class="btn btn--social">
+          <span class="social-icon social-icon--facebook">
+            <img src="./Facebook.svg" alt="">
+          </span>
+          <span>Sign in with Facebook</span>
+        </button>
+
+      </div>
+
+      <p class="signup">
+        Don't you have an account?
+        <a href="#">Sign up</a>
+      </p>
+
+    </div>
+  </main> -->
+
+    <!-- <section class="registration">
+    <div class="container">
+        <div class="registration__row">
+            <div class="col-6">
+                <form action=""></form>
+            </div>
+            <div class="col-6">
+                <img src="./Login Art.svg" alt="">
+            </div>
+        </div>
+    </div>
+  </section> -->
+
+
+
+</body>
+
+</html>

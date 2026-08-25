@@ -1,0 +1,237 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+  display: flex;
+}
+
+form {
+  width: 388px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.mobile {
+  display: none;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+}
+.main__left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+.main__left__form {
+  width: 388px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.main__left__form__h1 {
+  color: #0C1421;
+  margin-bottom: 28px;
+  font-weight: 600;
+  font-size: 36px;
+}
+.main__left__form__p {
+  margin-bottom: 48px;
+  width: 400px;
+  font-size: 20px;
+}
+.main__left__form__email {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+.main__left__form__email__input {
+  width: 388px;
+  height: 48px;
+  background-color: #F7FBFF;
+  border: 1px solid #D4D7E3;
+  border-radius: 12px;
+}
+.main__left__form__password {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+.main__left__form__password__input {
+  width: 388px;
+  height: 48px;
+  background-color: #F7FBFF;
+  border: 1px solid #D4D7E3;
+  border-radius: 12px;
+}
+.main__left__form__forgot {
+  margin-left: 256px;
+  margin-bottom: 24px;
+  text-decoration: none;
+  color: #1E4AE9;
+  font-size: 16px;
+  font-weight: 400;
+}
+.main__left__form__sing {
+  width: 388px;
+  height: 52px;
+  border-radius: 12px;
+  margin-bottom: 48px;
+  background-color: #162D3A;
+  color: white;
+  border: none;
+  font-size: 20px;
+  font-weight: 400;
+}
+.main__left__form__line {
+  margin-bottom: 24px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.main__left__form__line__span {
+  width: 169px;
+  height: 1px;
+  background-color: #CFDFE2;
+}
+.main__left__form__line__or {
+  font-size: 16px;
+  font-weight: 400;
+  color: #294957;
+}
+.main__left__form__google {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 48px;
+  height: 52px;
+  width: 388px;
+  background-color: #F3F9FA;
+  border-radius: 12px;
+  border: none;
+  font-size: 18px;
+  font-weight: 400;
+  color: #313957;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.main__left__form__google__p {
+  height: 52px;
+  width: 388px;
+  background-color: #F3F9FA;
+  border-radius: 12px;
+  border: none;
+  font-size: 18px;
+  font-weight: 400;
+  color: #313957;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.main__left__form__facebook {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 48px;
+  height: 52px;
+  width: 388px;
+  background-color: #F3F9FA;
+  border-radius: 12px;
+  border: none;
+  font-size: 18px;
+  font-weight: 400;
+  color: #313957;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.main__left__form__facebook__p {
+  height: 52px;
+  width: 388px;
+  background-color: #F3F9FA;
+  border-radius: 12px;
+  border: none;
+  font-size: 18px;
+  font-weight: 400;
+  color: #313957;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.main__left__form__account {
+  margin-left: 80px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.main__left__form__account__a {
+  text-decoration: none;
+  color: #1E4AE9;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+@media (max-width: 560px) {
+  .des {
+    display: none;
+  }
+  .mobile {
+    display: block;
+    margin-top: -750px;
+    margin-right: 300px;
+  }
+  section {
+    width: 40%;
+  }
+  .main__left__form {
+    margin-top: 200px;
+  }
+  .main__left__form__h1 {
+    margin-left: 100px;
+  }
+  .main__left__form__p {
+    margin-left: 100px;
+  }
+  .main__left__form__email {
+    margin-left: 100px;
+  }
+  .main__left__form__password {
+    margin-left: 100px;
+  }
+  .main__left__form__sing {
+    margin-left: 100px;
+  }
+  .main__left__form__line {
+    margin-left: 200px;
+  }
+  .main__left__form__google {
+    margin-left: 100px;
+  }
+  .main__left__form__facebook {
+    margin-left: 100px;
+  }
+  .main__left__form__account {
+    margin-left: 150px;
+    width: 400px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

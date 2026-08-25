@@ -1,0 +1,520 @@
+
+
+// *{
+//     padding: 0;
+//     margin: 0;
+//     box-sizing: border-box;
+// }
+
+// // label{
+// //     display: flex;
+// //     flex-direction: column;
+// // }
+
+// .Main{
+    
+
+//     &__Art{
+
+//         margin-left: 670px;
+//         margin-top: 32px;
+//         display: block;
+
+
+//         &__login{
+//             height: 1076px;
+//             width: 816px;
+//             display: block;
+//         }
+//         &__freme{
+//             display: none;
+//         }
+
+
+//     }
+
+//     &__left{
+
+//         width: 388px;
+//         margin-top: -1000px;
+//         margin-left: 220px;
+//         height: 865px;
+        
+
+
+//         &__intro{
+
+
+//             &__welcome{
+//                 color: #0C1421;
+//                 margin-bottom: 28px;
+//                 font-weight: 600;
+//                 font-size: 36px;
+//             }                
+
+//             &__p{
+                // margin-bottom: 48px;
+                // width: 400px;
+                // font-size: 20px;
+//             }
+//         }
+
+//         &__from{
+
+
+//             &__Email{
+//                 display: flex;
+//                 flex-direction: column;
+//                 margin-bottom: 24px;
+
+//                 &__input{
+//                     width: 388px;
+//                     height: 48px;
+//                     background-color: #F7FBFF;
+//                     border: 1px solid #D4D7E3;
+//                     border-radius: 12px;
+//                 }
+//             }
+
+//             &__Password{
+//                 display: flex;
+//                 flex-direction: column;
+//                 margin-bottom: 24px;
+
+//                 &__input{
+//                     width: 388px;
+//                     height: 48px;
+//                     background-color: #F7FBFF;
+//                     border: 1px solid #D4D7E3;
+//                     border-radius: 12px;
+//                 }
+//             }
+
+//             &__forgot{
+                // margin-left: 256px;
+                // margin-bottom: 24px;
+                // text-decoration: none;
+                // color: #1E4AE9;
+                // font-size: 16px;
+                // font-weight: 400;
+//             }
+
+//             &__sing{
+                // width: 388px;
+                // height: 52px;
+                // border-radius: 12px;
+                // margin-bottom: 48px;
+                // background-color: #162D3A;
+                // color: white;
+                // border: none;
+                // font-size: 20px;
+                // font-weight: 400;
+//             }
+
+//         }
+
+//         &__social{
+
+//             &__or{
+                // margin-bottom: 24px;
+                // display: flex;
+                // gap: 16px;
+                // align-items: center;
+                
+
+
+//                 &__left{
+                    // width: 169px;
+                    // height: 1px;
+                    // background-color: #CFDFE2;
+//                 }
+
+//                 &__orr{
+                    // font-size: 16px;
+                    // font-weight: 400;
+                    // color: #294957;
+//                 }
+
+//                 &__right{
+//                     width: 169px;
+//                     height: 1px;
+//                     background-color: #CFDFE2;
+
+//                 }
+//             }
+
+//             &__desktop{
+//                 display: flex;                
+//                 flex-direction: column;
+//                 gap: 10px;
+//                 margin-bottom: 48px;
+                
+
+//                 &__button{
+//                     height: 52px;
+//                     width: 388px;
+//                     background-color: #F3F9FA;
+//                     border-radius: 12px;
+//                     border: none;
+//                     font-size: 18px;
+//                     font-weight: 400;
+//                     color: #313957;
+//                     align-items: center;
+//                     display: flex;
+//                     justify-content: center;
+//                     gap: 10px;
+
+//                 }
+                
+//             }
+//             &__mobile{
+//                 display: none;
+
+//                 &__button{
+//                     height: 52px;
+//                     width: 388px;
+//                 }
+//             }
+            
+//                 @media (max-width: 560px){
+                    // &__desktop{
+                    //     display: none;
+                    // }
+                    // &__mobile{
+                    //     display: block;
+                    // }
+
+//                     .Main{
+
+                
+//                     &__Art{
+
+//                         &__login{
+//                             display: none;
+//                         }
+
+//                         &__freme{
+//                             display: block;
+//                         }
+//                     }
+//                 }
+//                 }
+
+//         }
+
+//         &__account{
+            // margin-left: 80px;
+            
+            
+
+//             &__p{
+                // font-size: 18px;
+                // font-weight: 400;
+
+//                 &__a{
+                    // text-decoration: none;
+                    // color: #1E4AE9;
+                    // font-size: 18px;
+                    // font-weight: 400;
+//                 }
+//             }
+//         }
+//       }
+
+//     &__2023{
+//         margin-top: 100px;
+//         margin-left: 286px;
+//         &__all{
+
+//     }
+//     }
+// }
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+    display: flex;
+}
+form{
+    width: 388px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.mobile{
+    display: none;
+}
+
+
+.main{
+    width: 100%;
+    display: flex;
+
+
+    &__left{
+         display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+
+        &__form{
+            width: 388px;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+
+            &__h1{
+                color: #0C1421;
+                margin-bottom: 28px;
+                font-weight: 600;
+                font-size: 36px;
+            }
+            &__p{
+                margin-bottom: 48px;
+                width: 400px;
+                font-size: 20px;
+            }
+
+            &__email{
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 24px;
+
+                &__input{
+                    width: 388px;
+                    height: 48px;
+                    background-color: #F7FBFF;
+                    border: 1px solid #D4D7E3;
+                    border-radius: 12px;
+                }
+            }
+
+            &__password{
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 24px;
+
+                &__input{
+                    width: 388px;
+                    height: 48px;
+                    background-color: #F7FBFF;
+                    border: 1px solid #D4D7E3;
+                    border-radius: 12px;
+                }
+            }
+
+            &__forgot{
+                margin-left: 256px;
+                margin-bottom: 24px;
+                text-decoration: none;
+                color: #1E4AE9;
+                font-size: 16px;
+                font-weight: 400;
+            }
+
+            &__sing{
+                width: 388px;
+                height: 52px;
+                border-radius: 12px;
+                margin-bottom: 48px;
+                background-color: #162D3A;
+                color: white;
+                border: none;
+                font-size: 20px;
+                font-weight: 400;
+            }
+
+            &__line{
+                margin-bottom: 24px;
+                display: flex;
+                gap: 16px;
+                align-items: center;
+
+
+                &__span{
+                    width: 169px;
+                    height: 1px;
+                    background-color: #CFDFE2;
+                }
+                &__or{
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: #294957;
+                }
+            }
+
+            &__google{
+                display: flex;                
+                flex-direction: column;
+                gap: 10px;
+                margin-bottom: 48px;
+
+
+                     height: 52px;
+                    width: 388px;
+                    background-color: #F3F9FA;
+                    border-radius: 12px;
+                    border: none;
+                    font-size: 18px;
+                    font-weight: 400;
+                    color: #313957;
+                    align-items: center;
+                    display: flex;
+                    justify-content: center;
+                    gap: 10px;
+
+
+   
+
+                &__p{
+                    height: 52px;
+                    width: 388px;
+                    background-color: #F3F9FA;
+                    border-radius: 12px;
+                    border: none;
+                    font-size: 18px;
+                    font-weight: 400;
+                    color: #313957;
+                    align-items: center;
+                    display: flex;
+                    justify-content: center;
+                    gap: 10px;
+                }
+            }
+
+            &__facebook{
+                display: flex;                
+                flex-direction: column;
+                gap: 10px;
+                margin-bottom: 48px;
+
+                    height: 52px;
+                    width: 388px;
+                    background-color: #F3F9FA;
+                    border-radius: 12px;
+                    border: none;
+                    font-size: 18px;
+                    font-weight: 400;
+                    color: #313957;
+                    align-items: center;
+                    display: flex;
+                    justify-content: center;
+                    gap: 10px;
+
+                &__p{
+                                      height: 52px;
+                    width: 388px;
+                    background-color: #F3F9FA;
+                    border-radius: 12px;
+                    border: none;
+                    font-size: 18px;
+                    font-weight: 400;
+                    color: #313957;
+                    align-items: center;
+                    display: flex;
+                    justify-content: center;
+                    gap: 10px;
+                }
+            }
+
+            &__account{
+                margin-left: 80px;
+                 font-size: 18px;
+                font-weight: 400;
+
+
+                &__a{
+                    text-decoration: none;
+                    color: #1E4AE9;
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+            }
+
+        }
+    }
+}
+
+
+                   
+@media (max-width: 560px) {
+     .des{
+        display: none;
+    }
+    .mobile{
+        display: block;
+        margin-top: -750px;
+        margin-right: 300px;
+
+    }
+
+    section{
+        width: 40%;
+    }
+
+    
+
+    .main{
+
+        &__left{
+
+            &__form{
+
+                margin-top: 200px;
+
+                &__h1{
+                    margin-left: 100px;
+                }
+
+                &__p{
+                    margin-left: 100px;
+                }
+
+                &__email{
+                        margin-left: 100px;
+                }
+
+                &__password{
+                        margin-left: 100px;
+                }
+
+                &__sing{
+                    margin-left: 100px;
+                }
+
+                &__line{
+                    margin-left: 200px;
+                }
+
+                &__google{
+                    margin-left: 100px;
+                }
+
+                &__facebook{
+                    margin-left: 100px;
+                }
+
+                &__account{
+                    margin-left: 150px;
+                    width: 400px;
+                }
+
+                
+            }
+        }
+    }
+}
+
+
